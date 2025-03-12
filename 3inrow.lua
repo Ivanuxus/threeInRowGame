@@ -3,8 +3,8 @@ Game = {}
 function Game:new()
     local obj = {
         board = {},
-        size = 5,
-        symbols = {"A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L"}
+        size = 10,
+        symbols = {"A", "B", "C", "D", "E", "F"}
     }
     setmetatable(obj, self)
     self.__index = self
